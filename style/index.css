@@ -103,3 +103,52 @@
     color: white;
   }
   
+  /* NAVBAR */
+
+  /* NAVBAR */
+
+header {
+    background: #5474fd;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .navbar {
+    font-size: 16px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .logo {
+    color: white;
+  }
+  
+  .navbar .container {
+    display: grid;
+    width: 1400px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+  }
+  .navbar .nav {
+    justify-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar .nav a {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .navbar .nav a:hover {
+    color: #ea526f;
+  }
+
+  
+  
