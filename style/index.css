@@ -1,154 +1,253 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "Aleo", serif;
-    font-family: "Josefin Sans", sans-serif;
-  }
-  
-  /*HERO SECTION PAGE */
-  
-  .hero {
-    width: 100%;
-    height: 820px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-image: url(/images/1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-  }
-  
-  .hero-title {
-    color: white;
-    font-size: 48px;
-    font-weight: 700;
-    padding-bottom: 20px;
-    text-transform: uppercase;
-    font-family: "Josefin Sans", sans-serif;
-    line-height: 26px;
-    letter-spacing: 4.8px;
-  }
-  
-  .hero-text {
-    color: white;
-    text-transform: 400;
-    font-size: 22px;
-    line-height: 26px;
-    letter-spacing: 6.82px;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-  form {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  
-  form.example input[type="text"] {
-    padding: 10px;
-    font-size: 14px;
-    float: left;
-    width: 500px;
-    height: 60px;
-    background: #f1f1f1;
-    font-size: 14px;
-    font-family: "Josefin Sans", sans-serif;
-    line-height: 26px;
-    letter-spacing: 2.8px;
-    text-align: center;
-    border: none;
-  }
-  
-  form.example button {
-    width: 153px;
-    height: 60px;
-    padding: 20px;
-    background: #2196f3;
-    color: white;
-    font-size: 14px;
-    border-left: none;
-    cursor: pointer;
-    font-size: 14px;
-    font-family: "Aleo", serif;
-    line-height: 26px;
-    letter-spacing: 2.8px;
-    border: white 3px solid;
-    text-transform: uppercase;
-  }
-  
-  form.example button:hover {
-    background: #0b7dda;
-  }
-  
-  form.example i {
-    padding-right: 12px;
-  }
-  .scroll {
-    color: #fff;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 26px;
-    letter-spacing: 2.8px;
-    text-align: center;
-    padding-top: 50px;
-  }
-  
-  .scroll a i {
-    text-decoration: none;
-    color: white;
-  }
-  
-  /* NAVBAR */
+body {
+  font-family: "Aleo", serif;
+  font-family: "Josefin Sans", sans-serif;
+}
 
-  /* NAVBAR */
+/*HERO SECTION PAGE */
+
+.hero {
+  width: 100%;
+  height: 820px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(/images/1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero-title {
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 26px;
+  letter-spacing: 4.8px;
+}
+
+.hero-text {
+  color: white;
+  text-transform: 400;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 6.82px;
+}
+
+form {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 14px;
+  float: left;
+  width: 500px;
+  height: 60px;
+  background: #f1f1f1;
+  font-size: 14px;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 26px;
+  letter-spacing: 2.8px;
+  text-align: center;
+  border: none;
+}
+
+form.example button {
+  width: 153px;
+  height: 60px;
+  padding: 20px;
+  background: #2196f3;
+  color: white;
+  font-size: 14px;
+  border-left: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "Aleo", serif;
+  line-height: 26px;
+  letter-spacing: 2.8px;
+  border: white 3px solid;
+  text-transform: uppercase;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example i {
+  padding-right: 12px;
+}
+.scroll {
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2.8px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.scroll a i {
+  text-decoration: none;
+  color: white;
+}
+
+/* NAVBAR */
+
+/* NAVBAR */
 
 header {
-    background: #5474fd;
-  }
-  
-  a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  ul {
-    list-style: none;
-  }
-  
-  .navbar {
-    font-size: 16px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-  
-  .logo {
-    color: white;
-  }
-  
-  .navbar .container {
-    display: grid;
-    width: 1400px;
-    grid-template-columns: repeat(2, 1fr);
-    margin: auto;
-  }
-  .navbar .nav {
-    justify-self: flex-end;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .navbar .nav a {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .navbar .nav a:hover {
-    color: #ea526f;
-  }
+  background: #5474fd;
+}
 
-  
-  
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar {
+  font-size: 16px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.logo {
+  color: white;
+}
+
+.navbar .container {
+  display: grid;
+  width: 1400px;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+}
+.navbar .nav {
+  justify-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .nav a {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navbar .nav a:hover {
+  color: #ea526f;
+}
+
+/* HERO SECTION */
+
+.grid-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-attachment: fixed;
+  background-image: url(/images/2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.column {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 600px;
+  margin: auto;
+}
+
+.grid-container > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title-column {
+  font-family: "Aleo", serif;
+  font-size: 36px;
+  line-height: 26px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.text-column {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.6;
+  font-weight: 400;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.text-column-1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.6;
+  font-weight: 400;
+  padding-top: 20px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.left-column {
+  padding-left: 50px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #496bfe;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  font-family: "Aleo", serif;
+  align-items: center;
+  padding: 20px 40px;
+  opacity: 0.7;
+}
+
+.btn:hover {
+  color: yellow;
+  box-shadow: 10px black;
+}
+
+.img3 {
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+
+.img2 {
+  padding-left: 50px;
+}
+
+.font-awsome {
+  width: 1000px;
+  background-color: #0b7dda;
+}
